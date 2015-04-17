@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[User]
+(
+	[UserID] INT NOT NULL PRIMARY KEY, 
+    [ChoiceID] INT NULL, 
+    [Name] VARCHAR(70) NOT NULL, 
+    [Email] VARCHAR(254) NOT NULL, 
+    [Age] INT NOT NULL, 
+    [Location] VARCHAR(50) NULL, 
+    [Bio] VARCHAR(500) NULL, 
+    [FavAnimal] VARCHAR(50) NULL, 
+    [Points] INT NOT NULL
+)
